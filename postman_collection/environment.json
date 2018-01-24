@@ -1,0 +1,34 @@
+{
+  "id": "a6623cdc-cb5c-1635-3850-d25711b3c2b1",
+  "name": "Trello API",
+  "values": [
+    {
+      "enabled": true,
+      "key": "key",
+      "type": "text",
+      "value": "4e538f9e1ee3175954f6b00a9003c1fa"
+    },
+    {
+      "enabled": true,
+      "key": "token",
+      "type": "text",
+      "value": "92cdc06d8246ba610f1a642904f474660ade05728c2bbfcdb4a3cd55da2b4272"
+    },
+    {
+      "enabled": true,
+      "key": "boardCounter",
+      "type": "text",
+      "value": "26"
+    },
+    {
+      "enabled": true,
+      "key": "boardName",
+      "type": "text",
+      "value": "My Test Board 26"
+    }
+  ],
+  "timestamp": 1516558064989,
+  "_postman_variable_scope": "environment",
+  "_postman_exported_at": "2018-01-22T10:51:12.526Z",
+  "_postman_exported_using": "Postman/5.5.0"
+}
