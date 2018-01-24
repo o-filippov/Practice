@@ -6,7 +6,7 @@
 		"test": "postman_collection"
 	},
 	"scripts": {
-		"api-tests-production": "newman run postman_collection/collection.json --reporters cli,junit --reporter-junit-export newman.xml"
+		"api-tests": "newman run postman_collection/collection.json --reporters cli,junit --reporter-junit-export newman.xml"
 	},
 	"author": "Oleksii Filippov",
 	"dependencies": {
