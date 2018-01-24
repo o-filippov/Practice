@@ -1,0 +1,15 @@
+{
+	"name": "postman-tests",
+	"version": "1.0.0",
+	"description": "practice with Postman",
+	"directories": {
+		"test": "postman_collection"
+	},
+	"scripts": {
+		"api-tests-production": "newman run postman_collection/collection.json --reporters cli,junit --reporter-junit-export newman.xml"
+	},
+	"author": "Oleksii Filippov",
+	"dependencies": {
+		"newman": "^3.5.2"
+	}
+}
