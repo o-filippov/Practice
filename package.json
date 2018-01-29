@@ -6,7 +6,7 @@
 		"test": "postman_collection"
 	},
 	"scripts": {
-		"api-tests": "newman run postman_collection/collection.json"
+		"api-tests": "newman run postman_collection/collection.json -e postman_collection/environment.json"
 	},
 	"author": "Oleksii Filippov",
 	"dependencies": {
